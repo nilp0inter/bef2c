@@ -1,1 +1,8 @@
 Befunge to C transpiler.
+
+Usage example
+-------------
+
+$ python setup.py install
+$ bef2c examples/yes.bf > yes.c
+$ gcc -O3 yes.c -o yes
